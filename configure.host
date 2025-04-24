@@ -211,7 +211,7 @@ case "${host}" in
   powerpc-*-darwin* | powerpc64-*-darwin*)
 	TARGET=POWERPC_DARWIN; TARGETDIR=powerpc
 	;;
-  powerpc-*-aix* | rs6000-*-aix*)
+  powerpc-*-aix* | rs6000-*-aix* | powerpc64-*-aix*)
 	TARGET=POWERPC_AIX; TARGETDIR=powerpc
 	# Create AIX-style "FAT" libraries.
 	tmake_file="t-aix"
